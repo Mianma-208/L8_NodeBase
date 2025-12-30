@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js development",
+    "build": "node index.js production",
+    "deploy": "node index.js domain",
+    "bcrypt": "node bcrypt-test.js",
+    "dev": "nodemon index.js development"
   },
   "keywords": [],
   "author": "",
